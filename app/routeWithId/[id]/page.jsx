@@ -3,5 +3,4 @@ const RouteWithId = ({params}) => {
     <div>RouteWithId {params.id}</div>
   )
 }
-
 export default RouteWithId

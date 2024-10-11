@@ -18,6 +18,9 @@ const Navbar = () => {
       <Link href="/routeWithId/2">
         <li className="navbar-item">Route with id 2</li>
       </Link>
+      <Link href="/routesWithSlug/helloSlug">
+        <li className="navbar-item">Route with slug </li>
+      </Link>
     </ul>
   )
 }
