@@ -12,6 +12,12 @@ const Navbar = () => {
       <Link href="/contact">
         <li className="navbar-item">Contact</li>
       </Link>
+      <Link href="/routeWithId/1">
+        <li className="navbar-item">Route with id 1</li>
+      </Link>
+      <Link href="/routeWithId/2">
+        <li className="navbar-item">Route with id 2</li>
+      </Link>
     </ul>
   )
 }
