@@ -1,0 +1,27 @@
+.home-section .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.home-section .products-container .card {
+  background-color: #fff;
+  border:1px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+}
+.home-section .products-container .card .img-container {
+  width: 100%;
+  height: 60%;
+}
+.home-section .products-container .card .img-container img {
+  width: 100%;
+  height: 100%;
+}
+.home-section .products-container .card .product-details{
+background-color: #f6f6f6;
+ }
